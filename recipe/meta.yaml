@@ -41,7 +41,7 @@ test:
 
 about:
   home: http://git.p-value.net/p/mco.git
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Functions for multiple criteria optimization using genetic algorithms and related test problems
   license_family: GPL2
   license_file:

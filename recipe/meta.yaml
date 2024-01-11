@@ -1,4 +1,4 @@
-{% set version = "1.15.6" %}
+{% set version = "1.16" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mco_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mco/mco_{{ version }}.tar.gz
-  sha256: 17ebe279cb9c89b7cd8054ac50d3b657d2b10dadbc584b88da7e79c3a9680582
+  sha256: 5d115221d03deec973e380a6520ca871f94680397d223c4f9399ec68a17be5eb
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
